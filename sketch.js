@@ -21,6 +21,6 @@ function setup() {
 //for (시작상태; 반복하는 조건; 증가값)
  for (var x = 1; x <=8; x++)
   {
-    ellipse(x * 100, 100, 50, 50);
+    ellipse(x * 70, x * 20, 100, 50, 50);
   }
 }
