@@ -6,6 +6,7 @@ function setup() {
 
     stroke(24, 234, 102);
     fill(217, 224, 33);
+}
 /*
     var x;
 
@@ -18,9 +19,12 @@ function setup() {
     x = 3;
     ellipse(x * 150, 100, 50, 50);
 */
+function draw(){
 //for (시작상태; 반복하는 조건; 증가값)
- for (var x = 1; x <=8; x++)
-  {
-    ellipse(x * 70, x * 20 + 100, x * 10, x * 50);
-  }
+
+  background(128, 0, 64);
+
+  ellipse(320, 240, mouseX, mouseY);
+
+ 
 }
